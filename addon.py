@@ -23,10 +23,6 @@ def main_menu():
             'label': plugin.get_string(30000), 
             'path': plugin.url_for('all_episodes'),
             'thumbnail': "resources/media/icon.png"},
-        {
-            'label': plugin.get_string(30002),
-            'path': plugin.url_for('new_to_criminal'),
-            'thumbnail': "resources/media/icon.png"},
     ]
 
     return items
