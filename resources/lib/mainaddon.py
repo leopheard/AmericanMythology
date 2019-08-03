@@ -8,7 +8,7 @@ def get_soup(url):
     """
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
-    xbmc.log('type: %s'%(type(soup)),xbmc.LOGDEBUG)
+#    xbmc.log('type: %s'%(type(soup)),xbmc.LOGDEBUG)
     
     print("type: ", type(soup))
     return soup
