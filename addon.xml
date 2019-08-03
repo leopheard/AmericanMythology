@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.americanmythology" name="American Mythology" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.kodi-six" version="0.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <summary lang="en_GB">KODI / XBMC audio addon for the American Mythology podcast</summary>
+    <description lang="en_GB">America has its own mythology, and it's about much more than fairy tales, religion, or classic history. Each episode blends history and storytelling to explore unique aspects of American identity and ideology that reveal something about our mythology, but also help frame current social and political issues. Understanding our mythology is key to discovering who we are and defining who we want to be.</description>
+    <license>The MIT License (MIT)</license>
+    <forum>https://forum.kodi.tv/</forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/americanmythology</source>
+    <website>http://thisiscriminal.com</website>
+        	<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.png</fanart>
+			<screenshot>resources/media/screen1.jpg</screenshot>
+			<screenshot>resources/media/screen2.jpg</screenshot>
+			<screenshot>resources/media/screen3.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
