@@ -20,6 +20,7 @@ __Version 1.1.3__
 3. Added strings.po GB
 4. Added addon.xml.md5 file and md5 hash
 5. Fixed transparency on addon.xml icon file
-6. Criminalpodcast.py added: xbmc.log('type: %s'%(type(soup)),xbmc.LOGDEBUG)
-7. Increased latest episodes to last 5 episodes
+6. Mainaddon.py added: xbmc.log('type: %s'%(type(soup)),xbmc.LOGDEBUG)
+7. Increased latest episodes to last 9 episodes
 8. Changed screenshot image for addon info screen
+9. Fixed RSS feed

@@ -6,7 +6,6 @@ from xbmcswift2 import Plugin, xbmcgui
 from resources.lib import mainaddon
 
 URL = "http://www.americanmythologypodcast.com/episodes?format=RSS"
-
 plugin = Plugin()
 @plugin.route('/')
 def main_menu():
