@@ -1,6 +1,4 @@
 # Kodi Media Center language file
-# Addon Name: American Mythology Podcast
-# Addon id: plugin.audio.americanmythology
 # Addon Provider: leopheard
 msgid ""
 msgstr ""
@@ -25,7 +23,3 @@ msgid "Latest episodes"
 msgstr ""
 
 # empty string with id 32003
-
-#msgctxt "#30002"
-#msgid "New to Criminal? Start here"
-#msgstr ""
