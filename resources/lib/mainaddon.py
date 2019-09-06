@@ -56,16 +56,15 @@ def get_playable_podcast1(soup):
             title = title.get_text()
 #            desc = content.find('itunes:subtitle')
 #            desc = desc.get_text()
-            thumbnail = content.find('img')
-            thumbnail = thumbnail.get('src')
+#            thumbnail = content.find('img')
+#            thumbnail = thumbnail.get('src')
         except AttributeError:
             continue
         item = {
                 'Link': link,
                 'title': title,
 #                'desc': desc,
-#                'thumbnail': "https://images.squarespace-cdn.com/content/5671a4705a5668ba6b111b2b/1481812482959-FT137O7ZRUC6ERWMRA0R/AMLogo-1400x1400.png"
-                'thumbnail': thumbnail,
+                'thumbnail': "https://images.squarespace-cdn.com/content/5671a4705a5668ba6b111b2b/1481812482959-FT137O7ZRUC6ERWMRA0R/AMLogo-1400x1400.png",
         }
         subjects.append(item) 
     return subjects
