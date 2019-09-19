@@ -8,6 +8,8 @@ America has its own mythology, and it's about much more than fairy tales, religi
 It's our reality and our worldview founded on familiar concepts like freedom, democracy, and opportunity, as well as embedded in our heroes and symbols. There are darker sides to our mythology, too. Each episode blends history and storytelling to explore unique aspects of American identity and ideology that reveal something about our mythology, but also help frame current social and political issues.<br>
 
 Understanding our mythology is key to discovering who we are and defining who we want to be.<br>
+
+<a href="www.kodi.tv">Kodi</a> (formerly known as XBMC) is an award-winning free and open source (GPL) software media player and entertainment hub that can be installed on Linux, OSX, Windows, iOS and Android, featuring a 10-foot user interface for use with televisions and remote controls. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.<br>
  
 ^^^ To install this addon, either use the <a href="https://www.tvaddons.co/github-browser-kodi/">Kodi Github installer</a> addon or save the .zip file downloaded from the 'clone or download' button to somewhere the Kodi can access (e.g. network drive or USB stick). Then on the Kodi, go to addons > install from zip file.<br>
 
